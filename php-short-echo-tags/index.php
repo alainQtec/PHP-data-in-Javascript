@@ -1,5 +1,5 @@
 <?php
-$name = 'Alain'
+$name = "'Alain'"
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -13,8 +13,11 @@ $name = 'Alain'
 
 <body>
     <script>
-        $name = ''
-        alert('Hello' + $name)
+        var name = <?= json_encode($name) ?>;
+        console.log({
+            UserName: name
+        });
+        alert('Hello ' + name)
     </script>
 </body>
 
