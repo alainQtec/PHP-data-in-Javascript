@@ -1,4 +1,4 @@
-# PHP-to-JavaScript-Data-Pass
+# Use PHP data in Javascript
 
  Different ways of how to pass data from PHP to JavaScript.
 
