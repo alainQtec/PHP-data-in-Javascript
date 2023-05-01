@@ -14,3 +14,9 @@ There are several ways you may use to do this:
 
 * Use PHP short echo tags
 * Use
+
+## Run
+
+```bash
+php -S localhost:4000
+```
